@@ -1,0 +1,64 @@
+body {
+    background-color: #fff;
+    font: Georgia;
+}
+
+/* page header */
+h1 {
+    color: #000;
+    font-size: 1.4em;
+}
+
+/* page subheader */
+h2 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* contains header + subheader */
+#serendipity_banner {
+    margin: auto;
+    max-width: 50em;
+}
+
+/* main entry list */
+#content {
+    margin: auto;
+    max-width: 50em;
+}
+
+/* entry titles */
+h4.serendipity_title {
+    color: #333;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+/* entry dates */
+h3.serendipity_date {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+p {
+    color: #333;
+}
+
+blockquote {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+img {
+    align: left;
+    margin-top: 2em;
+    margin-botom: 2em;
+}
+
+div.serendipity_entry_body a {
+    color: #333;
+    text-decoration: underline;
+    text-decoration-color: #666;
+}

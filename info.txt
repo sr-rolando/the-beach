@@ -1,0 +1,4 @@
+Name: The Beach
+Author: Señor Rolando
+Date: 2012/08/22
+Require Serendipity: 1.6

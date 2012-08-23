@@ -1,18 +1,20 @@
 body {
     background-color: #fff;
-    font: Georgia;
+    font-family: Georgia, serif;
 }
 
 /* page header */
-h1 {
+h1 a {
     color: #000;
     font-size: 1.4em;
+    text-decoration: none;
 }
 
 /* page subheader */
-h2 {
+h2 a {
     color: #333;
     font-size: 1.2em;
+    text-decoration: none;
 }
 
 /* contains header + subheader */
@@ -28,11 +30,12 @@ h2 {
 }
 
 /* entry titles */
-h4.serendipity_title {
+h4.serendipity_title a {
     color: #333;
     font-size: 1.2em;
     font-weight: 700;
     margin-top: 2em;
+    text-decoration: none;
 }
 
 /* entry dates */
@@ -61,4 +64,10 @@ div.serendipity_entry_body a {
     color: #333;
     text-decoration: underline;
     text-decoration-color: #666;
+}
+
+/* footer */
+div.serendipity_entryFooter {
+    color: #666;
+    margin-top: 2em;
 }

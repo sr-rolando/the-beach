@@ -8,6 +8,7 @@ h1 a {
     color: #000;
     font-size: 1.4em;
     text-decoration: none;
+    text-rendering: optimizeLegibility;
 }
 
 /* page subheader */
@@ -15,6 +16,7 @@ h2 a {
     color: #333;
     font-size: 1.2em;
     text-decoration: none;
+    text-rendering: optimizeLegibility;
 }
 
 /* contains header + subheader */
@@ -36,6 +38,7 @@ h4.serendipity_title a {
     font-weight: 700;
     margin-top: 2em;
     text-decoration: none;
+    text-rendering: optimizeLegibility;
 }
 
 /* entry dates */
@@ -43,6 +46,7 @@ h3.serendipity_date {
     color: #666;
     font-size: 1em;
     margin-bottom: 1em;
+    text-rendering: optimizeLegibility;
 }
 
 p {

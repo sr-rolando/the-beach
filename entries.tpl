@@ -76,7 +76,7 @@
 {/foreach}
 
 <div class='serendipity_entryFooter'>
-  &copy; 2013 Señor Rolando
+  &copy; 2013 <a href="http://sr-rolando.com/">Señor Rolando</a>
 
   {serendipity_hookPlugin hook="entries_footer"}
 </div>

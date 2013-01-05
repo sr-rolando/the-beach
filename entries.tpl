@@ -76,7 +76,7 @@
 {/foreach}
 
 <div class='serendipity_entryFooter'>
-  &copy; 2012 Señor Rolando
+  &copy; 2013 Señor Rolando
 
   {serendipity_hookPlugin hook="entries_footer"}
 </div>

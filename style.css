@@ -71,7 +71,9 @@ div.serendipity_entry_body a {
 }
 
 /* footer */
-div.serendipity_entryFooter {
+div.serendipity_entryFooter,
+div.serendipity_entryFooter a {
     color: #666;
     margin-top: 2em;
 }
+div.serendipity_entryFooter a { text-decoration: underline; }

@@ -54,7 +54,10 @@ p {
 }
 
 blockquote {
-    padding-left: 2em;
+    border-left: 3px solid #F89614;
+    color: #555;
+    font-style: italic;
+    padding-left: 1em;
     padding-right: 2em;
 }
 

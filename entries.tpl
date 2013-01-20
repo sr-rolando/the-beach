@@ -9,7 +9,7 @@
   
   {foreach from=$dategroup.entries item="entry"}
   {if not $dategroup.is_sticky}
-  <h4 class="serendipity_title"><a href="{$entry.link}">{$entry.title}</a></h4>
+  <h2 class="serendipity_title"><a href="{$entry.link}">{$entry.title}</a></h2>
   <h3 class="serendipity_date">{$dategroup.date|@formatTime:DATE_FORMAT_ENTRY}</h3>
   {/if}
   <div class="serendipity_entry serendipity_entry_author_{$entry.author|@makeFilename} {if $entry.is_entry_owner}serendipity_entry_author_self{/if}">
@@ -76,7 +76,7 @@
 {/foreach}
 
 <div class='serendipity_entryFooter'>
-  &copy; 2013 <a href="http://sr-rolando.com/">Señor Rolando</a>
+  <a href="http://sr-rolando.com/editorial/">Editorial</a> &copy; 2013 <a href="http://sr-rolando.com/">Señor Rolando</a>
 
   {serendipity_hookPlugin hook="entries_footer"}
 </div>

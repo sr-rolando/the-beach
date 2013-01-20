@@ -23,10 +23,13 @@
 {/if}
 
 {if $is_raw_mode != true}
+{if $entry_id}
+{else}
 <div id="serendipity_banner">
     <h1><a class="homelink1" href="{$serendipityBaseURL}">{$head_title|@default:$blogTitle}</a></h1>
     <h2><a class="homelink2" href="{$serendipityBaseURL}">{$head_subtitle|@default:$blogDescription}</a></h2>
 </div>
+{/if}
 
 <div id="content">
       {$CONTENT}
